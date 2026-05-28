@@ -1,40 +1,119 @@
-<html lang="en">
+<!-- Atividade em Dupla
+	 Pedro Henrique Mantovani
+	 João Filipe Peralta -->
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EA Sports - Artigos Esportivos</title>
-    <link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--Em dupla
-    Pedro Henrique Mantovani
-    João Filipe Peralta-->
+	<title>EA Sports Store</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-         <h1>EA Sports</h1>
-    <p>Bem-vindo à EA Sports, sua loja online de artigos esportivos! Aqui você encontrará uma ampla variedade de produtos para praticar seu esporte favorito, desde roupas e calçados até equipamentos e acessórios. Navegue por nossas categorias e encontre tudo o que precisa para se destacar no campo, na quadra ou na pista. Aproveite nossas ofertas exclusivas e faça suas compras com segurança e comodidade. Junte-se à comunidade EA Sports e eleve seu desempenho esportivo ao próximo nível!</p>
-    <br>
+	<header class="cabecalho-site">
+		<div class="marca">
+			<img src="img/logoEA.jpg" alt="Logo EA" class="marca-logo">
+			<h1>EA Sports Store</h1>
+		</div>
 
-    <section>
-    <h2>Produtos em Destaque</h2>
-    <ul>
-        <li><strong>Chuteira de Futebol:</strong> Conforto e desempenho para dominar o campo.</li>
-        <li><strong>Camisa de Basquete:</strong> Estilo e funcionalidade para arrasar nas quadras.</li>
-        <li><strong>Raquete de Tênis:</strong> Precisão e controle para elevar seu jogo.</li>
-        <li><strong>Equipamento de Treinamento:</strong> Tudo o que você precisa para aprimorar suas habilidades.</li>
+		<nav class="navegacao-principal" aria-label="Navegação principal">
+			<ul>
+				<li><a href="#destaques">Destaques</a></li>
+				<li><a href="#produtos">Produtos</a></li>
+				<li><a href="#contato">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
 
-    </ul>
-    </section>
+	<main>
+		<section class="destaque" id="destaques">
+			<p class="subtitulo">Loja oficial inspirada no universo EA Sports</p>
+			<h2>Jogos e produtos para quem vive o esporte dentro da tela</h2>
+			<p>
+				Aqui você encontra os jogos mais recentes, acessórios exclusivos e tudo o que um fã de esportes digitais precisa para elevar sua experiência de jogo. Explore nossa seleção e leve a emoção do esporte para o próximo nível!
+			</p>
+		</section>
 
-    <br>
-    <section>
-        <h2>Ofertas Especiais</h2>
-        <p>Aproveite nossas ofertas exclusivas e descontos incríveis em uma seleção de produtos esportivos. Não perca a chance de adquirir os melhores equipamentos e roupas com preços imperdíveis. Visite nossa seção de promoções e garanta seus itens favoritos antes que acabem!</p>
-    </section>
+		<section class="secao-produtos" id="produtos">
+			<h2>Produtos em destaque</h2>
 
-    
+			<div class="grade-produtos">
+				<article class="cartao-produto">
+					<img
+						src="img/EAFC.jpg"
+						alt="Arte ilustrativa do jogo EA FC 26"
+					>
+					<div class="conteudo-cartao">
+						<h3>EA FC 26</h3>
+						<p>Entre em campo com a nova temporada, modos atualizados e partidas intensas.</p>
+						<a href="https://www.ea.com/pt-br/sports" class="botao">Quero este jogo</a>
+					</div>
+				</article>
 
-    </main>
-   
+				<article class="cartao-produto">
+					<img
+						src="img/MadenNFL.jpg"
+						alt="Arte ilustrativa do jogo Madden NFL"
+					>
+					<div class="conteudo-cartao">
+						<h3>Madden NFL</h3>
+						<p>Monte jogadas, controle o ritmo da partida e domine o futebol americano.</p>
+						<a href="https://www.ea.com/pt-br/sports" class="botao">Quero este jogo</a>
+					</div>
+				</article>
+
+				<article class="cartao-produto">
+					<img
+						src="img/F1 26.jpg"
+						alt="Arte ilustrativa do jogo F1 26"
+					>
+					<div class="conteudo-cartao">
+						<h3>F1 26</h3>
+						<p>Corra nas pistas mais famosas do mundo com carros, estratégia e emoção.</p>
+						<a href="https://www.ea.com/pt-br/sports" class="botao">Quero este jogo</a>
+					</div>
+				</article>
+                <article class="cartao-produto">
+					<img
+						src="img/GranTurismo.jpg"
+						alt="Arte ilustrativa do jogo Gran Turismo"
+					>
+					<div class="conteudo-cartao">
+						<h3>Gran Turismo</h3>
+						<p>Experimente a emoção da condução em pistas realistas com carros de alta performance.</p>
+						<a href="https://www.ea.com/pt-br/sports" class="botao">Quero este jogo</a>
+					</div>
+				</article>
+                <article class="cartao-produto">
+					<img
+						src="img/RocketLeague.png"
+						alt="Arte ilustrativa do jogo Rocket League"
+					>
+					<div class="conteudo-cartao">
+						<h3>Rocket League</h3>
+						<p>Combine o futebol com a velocidade de carros em uma experiência única e emocionante.</p>
+						<a href="https://www.ea.com/pt-br/sports" class="botao">Quero este jogo</a>
+					</div>
+				</article>
+                <article class="cartao-produto">
+					<img
+						src="img/SpiderMan.jpg"
+						alt="Arte ilustrativa do jogo Spider-Man"
+					>
+					<div class="conteudo-cartao">
+						<h3>Spider-Man</h3>
+						<p>Desenvolva suas habilidades como herói e proteja a cidade de ameaças.</p>
+						<a href="https://www.ea.com/pt-br/sports" class="botao">Quero este jogo</a>
+					</div>
+				</article>
+			</div>
+		</section>
+	</main>
+
+	<footer class="rodape-site" id="contato" aria-label="Rodapé">
+		<p>EA Sports Store — Loja de jogos</p>
+		<p>Contato: <a href="mailto:easports@gmail.com">easports@gmail.com</a></p>
+	</footer>
 </body>
 </html>
